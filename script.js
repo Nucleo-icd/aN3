@@ -25,7 +25,8 @@ document.getElementById('login-form').addEventListener('submit', async function 
       console.error("Erro na comunicação com a API:", error);
     }
 
-    window.location.href = "https://app.powerbi.com/view?r=LINK_DO_PAINEL_ANESTESIOLOGIA";
+    window.location.href = "https://app.powerbi.com/view?r=eyJrIjoiM2MxZDRkMjYtZWEyOS00NTQ1LWIxOGQtZGE4YTIyZDQ0OWEyIiwidCI6IjNhNzhiMGNkLTdjOGUtNDkyOS04M2Q1LTE5MGE2Y2MwMTM2NSJ9
+";
   } else {
     document.getElementById('error-message').style.display = "block";
   }
